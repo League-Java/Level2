@@ -1,4 +1,4 @@
-base: /New_Curriculum_Template/
+base: /Level2/
 description: A Demo of the League Curriculum websites
 head:
 - - meta
@@ -18,7 +18,7 @@ plugins:
 - '@vuepress/plugin-back-to-top'
 - '@vuepress/plugin-medium-zoom'
 themeConfig:
-  displayAllHeaders: true
+  displayAllHeaders: false
   docsDir: ''
   editLinkText: ''
   editLinks: false
@@ -34,14 +34,38 @@ themeConfig:
   - path: /
     title: Introduction
   - children:
-    - path: /lessons/lesson1/assignment_a/
-      title: Assignment A
+    - path: /lessons/Module0/arrays/
+      title: Arrays
+    - path: /lessons/Module0/extra/
+      title: Extra
     collapsable: false
-    title: Getting Started
+    title: Module0
   - children:
-    - path: /lessons/lesson2/assignment_b/
-      title: Assignment B
+    - path: /lessons/Module1/00_intro_to_array_lists/
+      title: 00 Intro To Array Lists
+    - path: /lessons/Module1/01_array_list_visualizer/
+      title: 01 Array List Visualizer
+    - path: /lessons/Module1/02_array_list_guestbook/
+      title: 02 Array List Guestbook
     collapsable: false
-    path: /lessons/lesson2/
-    title: Lesson 2
+    title: Module1
+  - children:
+    - path: /lessons/Module2/01_shapes_original/
+      title: 01 Shapes Original
+    - path: /lessons/Module2/02_shapes_inheritance/
+      title: 02 Shapes Inheritance
+    - path: /lessons/Module2/03_animals_original/
+      title: 03 Animals Original
+    - path: /lessons/Module2/04_animals_inheritance/
+      title: 04 Animals Inheritance
+    - path: /lessons/Module2/05_overriding/
+      title: 05 Overriding
+    - path: /lessons/Module2/06_overloading/
+      title: 06 Overloading
+    - path: /lessons/Module2/07_timers/
+      title: 07 Timers
+    - path: /lessons/Module2/08_LeagueSnake/
+      title: 08 Leaguesnake
+    collapsable: false
+    title: Module2
 title: League Demo

@@ -3,22 +3,34 @@ description: A Demo of the League Curriculum websites
 title: League Demo
 tagline: Igniting Young Minds Through Programming
 pages:
-  - index.md
-  - about.md
+- index.md
+- about.md
 resources:
-  - flag.png
-  - word-logo.png
+- flag.png
+- word-logo.png
 sidebar:
-  - path: /
-    title: Introduction
+- path: /
+  title: Introduction
 lessons:
-  
-  lesson1:
-    title: Getting Started # neet a title b/c there is no index.md
+  Module0:
+    title: Module0
     assignments:
-     - lesson1/assignment_a.md
-  lesson2:
-    # title: No Title # Don't need title, has index.md
+    - Module0/arrays
+    - Module0/extra
+  Module1:
+    title: Module1
     assignments:
-    - lesson2/assignment_b.md
-
+    - Module1/00_intro_to_array_lists
+    - Module1/01_array_list_visualizer
+    - Module1/02_array_list_guestbook
+  Module2:
+    title: Module2
+    assignments:
+    - Module2/01_shapes_original
+    - Module2/02_shapes_inheritance
+    - Module2/03_animals_original
+    - Module2/04_animals_inheritance
+    - Module2/05_overriding
+    - Module2/06_overloading
+    - Module2/07_timers
+    - Module2/08_LeagueSnake
