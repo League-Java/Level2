@@ -1,5 +1,5 @@
 base: /Level2/
-description: A Demo of the League Curriculum websites
+description: Documentation and links for League Java Level 2
 head:
 - - meta
   - content: '#F37121'
@@ -68,4 +68,4 @@ themeConfig:
       title: 08 Leaguesnake
     collapsable: false
     title: Module2
-title: League Demo
+title: Java Level 2
